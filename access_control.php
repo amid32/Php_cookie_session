@@ -20,8 +20,8 @@ if (isset($_POST["login"])) {
 	$passw = $_POST["passw"];
 	//$name = $_POST["name"];
 
-	$username =  mysqli_real_escape_string($conn, $username);
-	$passw    =  mysqli_real_escape_string($conn, $passw);
+	$username =  mysqli_real_escape_string($conn, $username);  //xüsusi simvolları qacmag
+	$passw    =  mysqli_real_escape_string($conn, $passw);    //xüsusi simvolları qacmag
 
    $query = "SELECT * FROM user WHERE username ='{$username}'";
    $select_user_query = mysqli_query($conn, $query);
