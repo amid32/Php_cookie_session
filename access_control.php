@@ -13,7 +13,7 @@ $message = ''; #bu kod login girisinde eyer adin veya sifre sef dogru olub olmad
 #$member = ['username' => 'timtest','passw' => '12345','name' => 'My name is PHP'];
 #burada fikirlesinki verilenler bazasinda adiniz ve sifreniz var
 
-#bu kod verilenler bazasinda olan adiniz ve sifreniz var sehifenize daxilolanda buradano oxunur
+#bu kod verilenler bazasinda olan adiniz ve sifreniz var sehifenize daxilolanda buradan oxunur
 if (isset($_POST["login"])) {
 	//$id = $_POST["id"];
 	$username = $_POST["username"];
